@@ -1,0 +1,10 @@
+@use "../abstract/variables" as var;
+
+.font-cn {
+    font-family: var.$font-secondary;
+}
+
+.color-animation {
+    transition: 500ms;
+    animation: color-change 10s infinite;
+}

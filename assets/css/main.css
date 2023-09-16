@@ -1,1 +1,77 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;600;700;800&family=Pacifico&family=Poppins:wght@100;300;400;600;700;900&family=Raleway:wght@500&family=Roboto:wght@400;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.font-cn {
+  font-family: "Pacifico", cursive;
+}
+
+.color-animation {
+  transition: 500ms;
+  animation: color-change 10s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+.btn {
+  padding: 0.8rem 1.6rem;
+  border-radius: 6px;
+  line-height: 1;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  display: inline-block;
+}
+.btn-primary {
+  background-color: rgb(153, 7, 97);
+  color: white;
+}
+.btn-primary:hover {
+  background-color: rgb(217, 53, 154);
+  color: rgb(22, 5, 16);
+  transition: 250ms;
+}
+
+.header {
+  padding: 1rem 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-transform: uppercase;
+}
+.header-menu-item > a {
+  margin-right: 1.5rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(22, 5, 16);
+  transition: 250ms;
+}
+.header-menu-item > a:hover {
+  color: rgb(153, 7, 97);
+}
+.header-menu-item > a.active {
+  color: rgb(153, 7, 97);
+}/*# sourceMappingURL=main.css.map */
