@@ -724,4 +724,28 @@ a {
   font-size: 1.2rem;
   line-height: 1.4;
   color: grey;
+  text-align: justify;
+}
+
+.about-area {
+  padding: 8rem 14rem;
+  background-color: rgb(153, 7, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+}
+.about-area--img {
+  width: 25rem;
+}
+.about-area--content {
+  color: white;
+}
+.about-area--content h2 {
+  font-size: 2rem;
+}
+.about-area--content p {
+  color: grey;
+  font-size: 1rem;
+  text-align: justify;
 }/*# sourceMappingURL=main.css.map */

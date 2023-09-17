@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    
     &-header {
         display: flex;
     }
@@ -21,6 +21,7 @@
         margin-top: 2rem;
         font-size: 1.2rem;
         line-height: 1.4;
-        color: grey
+        color: grey;
+        text-align: justify;
     }
 }
