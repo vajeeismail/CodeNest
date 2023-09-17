@@ -4,9 +4,15 @@
 
 // Utilities
 @import "./utilities/animations";
+@import "./utilities/spacing";
 
 // componets
 @import "./componets/buttons";
+@import "./componets/badges";
 
 // Layouts
 @import "./layouts/header";
+@import "./layouts/background-elements";
+
+// Pages
+@import "./pages/home";

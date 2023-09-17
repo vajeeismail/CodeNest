@@ -4,6 +4,10 @@
     font-family: var.$font-secondary;
 }
 
+.text-uppercase {
+    text-transform: uppercase;
+}
+
 .color-animation {
     transition: 500ms;
     animation: color-change 10s infinite;
