@@ -2,12 +2,12 @@
 @use "../abstract/functions" as func;
 
 .about-area {
-    padding: 8rem 14rem;
+    padding: 4rem 14rem;
     background-color: func.theme-colors();
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12rem;
+    margin-top: 5rem;
 
     &--img {
         width: 25rem;
@@ -22,8 +22,8 @@
 
         p {
             
-            color: grey;
-            font-size: 1rem;
+            color: lightgray;
+            font-size: 1.2rem;
             text-align: justify;
         }
     }

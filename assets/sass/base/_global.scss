@@ -1,4 +1,5 @@
 @use "../abstract/variables" as var;
+@use "../abstract/functions" as func;
 
 .font-cn {
     font-family: var.$font-secondary;
@@ -11,4 +12,12 @@
 .color-animation {
     transition: 500ms;
     animation: color-change 10s infinite;
+}
+
+.line {
+    background: linear-gradient(to right, func.theme-colors(), orange);
+    width: 5rem;
+    height: 0.1rem;
+    border-radius: 6px;
+    margin: 25px auto;
 }
