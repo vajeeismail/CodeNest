@@ -1,0 +1,30 @@
+@use "../abstract/functions" as func;
+
+.contact-area {
+    padding: 8rem 14rem;
+    background-color:lightgray;
+
+    .contact-card {
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 2rem;
+        border: 1px solid func.theme-colors();
+        border-radius: 1rem;
+        overflow: hidden;
+
+        &--header {
+            flex-grow: 1;
+
+            h4 {
+                font-size: 1.2rem;
+            }
+
+            p {
+                color: grey;
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
