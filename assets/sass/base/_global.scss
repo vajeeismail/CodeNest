@@ -21,3 +21,9 @@
     border-radius: 6px;
     margin: 25px auto;
 }
+
+// for xs size responsive
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}

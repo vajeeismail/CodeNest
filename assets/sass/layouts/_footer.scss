@@ -1,3 +1,5 @@
+@use "../abstract/mixins" as mixins;
+
 @use  "../abstract/functions" as func;
 @use "../abstract/variables" as var;
 
@@ -7,16 +9,32 @@
     background-color: func.theme-colors();
     color: white;
 
+    @include mixins.responsive(xs) {
+    }
+
+    h2 {
+        @include mixins.responsive(xs) {
+            font-size: 1.3rem;
+        } 
+    }
+
     img {
         width: 70px;
-        height: 70px;
         transform: rotate(360deg);
         animation: logo-shape linear 5s infinite;
+
+        @include mixins.responsive(xs) {
+            width: 50px;
+        } 
     }
 
     p {
         color: lightgrey;
         font-family: var.$font-secondary;
+
+        @include mixins.responsive(xs) {
+            font-size: 0.8rem;
+        } 
     }
 
     a {
@@ -38,12 +56,21 @@
         &:hover {
             color: white;
         }
+
+        @include mixins.responsive(xs) {
+            font-size: 1rem;
+            padding: 0 5px;
+        } 
     }
 
     .copyright-legal {
         p {
             font-size: 0.8rem;
             font-family: var.$font-primary;
+            
+            @include mixins.responsive(xs) {
+                font-size: 0.5rem;
+            } 
         }
     }
 
@@ -53,6 +80,10 @@
             font-size: 0.8rem;
             color: func.theme-colors("dark");
             font-family: var.$font-primary;
+
+            @include mixins.responsive(xs) {
+                font-size: 0.5rem;
+            } 
         }
     }
 }

@@ -1,8 +1,15 @@
+@use "../abstract/mixins" as mixins;
+
 @use "../abstract/functions" as func;
 
 .contact-area {
     padding: 8rem 14rem;
     background-color:lightgray;
+
+    @include mixins.responsive(xs) {
+        padding: 4rem 2rem;
+        margin-top: 0;
+    }
 
     .contact-card {
         background-color: white;
@@ -13,6 +20,11 @@
         border: 1px solid func.theme-colors();
         border-radius: 1rem;
         overflow: hidden;
+
+        @include mixins.responsive(xs) {
+            display: block;
+            align-items: initial;
+        }
 
         &--header {
             flex-grow: 1;
