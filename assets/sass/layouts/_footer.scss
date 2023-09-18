@@ -1,0 +1,58 @@
+@use  "../abstract/functions" as func;
+@use "../abstract/variables" as var;
+
+.footer-area {
+    padding: 2rem 0rem;
+    text-align: center;
+    background-color: func.theme-colors();
+    color: white;
+
+    img {
+        width: 70px;
+        height: 70px;
+        transform: rotate(360deg);
+        animation: logo-shape linear 5s infinite;
+    }
+
+    p {
+        color: lightgrey;
+        font-family: var.$font-secondary;
+    }
+
+    a {
+        transition: 500ms;
+        color: lightgrey;
+        font-family: var.$font-secondary;
+
+        &:hover {
+            text-shadow: 1px 1px 5px white;
+        }
+    }
+
+    .social-icons > a > i{
+        transition: 500ms;
+        font-size: 1.5rem;
+        padding: 0 10px;
+        color: black;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    .copyright-legal {
+        p {
+            font-size: 0.8rem;
+            font-family: var.$font-primary;
+        }
+    }
+
+    .reference {
+        
+        p, p > cite > a  {  
+            font-size: 0.8rem;
+            color: func.theme-colors("dark");
+            font-family: var.$font-primary;
+        }
+    }
+}

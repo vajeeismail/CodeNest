@@ -75,6 +75,14 @@ a {
     transform: rotate(360deg);
   }
 }
+@keyframes logo-shape {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .m-1 {
   margin: spacerem !important;
 }
@@ -735,6 +743,49 @@ a {
   animation: box-shape linear 5s infinite;
 }
 
+.footer-area {
+  padding: 2rem 0rem;
+  text-align: center;
+  background-color: #A60666;
+  color: white;
+}
+.footer-area img {
+  width: 70px;
+  height: 70px;
+  transform: rotate(360deg);
+  animation: logo-shape linear 5s infinite;
+}
+.footer-area p {
+  color: lightgrey;
+  font-family: "Pacifico", cursive;
+}
+.footer-area a {
+  transition: 500ms;
+  color: lightgrey;
+  font-family: "Pacifico", cursive;
+}
+.footer-area a:hover {
+  text-shadow: 1px 1px 5px white;
+}
+.footer-area .social-icons > a > i {
+  transition: 500ms;
+  font-size: 1.5rem;
+  padding: 0 10px;
+  color: black;
+}
+.footer-area .social-icons > a > i:hover {
+  color: white;
+}
+.footer-area .copyright-legal p {
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+}
+.footer-area .reference p, .footer-area .reference p > cite > a {
+  font-size: 0.8rem;
+  color: rgb(22, 5, 16);
+  font-family: "Poppins", sans-serif;
+}
+
 .hero-area {
   padding: 8rem 18rem;
   display: flex;
@@ -760,7 +811,7 @@ a {
 }
 
 .about-area {
-  padding: 8rem 14rem;
+  padding: 4rem 14rem;
   background-color: #A60666;
   display: flex;
   justify-content: center;
