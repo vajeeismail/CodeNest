@@ -23,11 +23,11 @@
         h2 {
 
             @include mixins.responsive(xs) {
-                font-size: 1.2rem;
+                font-size: 1rem;
             }
 
             @include mixins.responsive(sm) {
-                font-size: 1.6rem;
+                font-size: 1.3rem;
             }
         }
 
@@ -111,13 +111,13 @@
                 font-weight: 600;
 
                 @include mixins.responsive(xs) {
-                    font-weight: 600;
+                    font-weight: 400;
                     font-size: 1rem;
                 }
 
                 @include mixins.responsive(sm) {
-                    font-weight: 600;
-                    font-size: 1.2rem;
+                    font-weight: 400;
+                    font-size: 1rem;
                 }
             }
 
@@ -127,7 +127,11 @@
                 font-size: 0.8rem;
 
                 @include mixins.responsive(xs) {
-                    font-size: 0.7rem;
+                    font-size: 0.6rem;
+                }
+
+                @include mixins.responsive(sm) {
+                    font-size: 0.6rem;
                 }
             }
         }
@@ -147,7 +151,7 @@
             @include mixins.responsive(xs) {
                 transform: rotate(90deg);
                 top: 170px;
-                left: 85px;
+                left: 70px;
             }
         }
 

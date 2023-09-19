@@ -16,6 +16,14 @@
         padding: 1rem 2rem;
     }
 
+    @include mixins.responsive(md) {
+        padding: 1rem 2rem;
+    }
+
+    @include mixins.responsive(lg) {
+        padding: 1rem 6rem;
+    }
+
     h2 {
         @include mixins.responsive(xs) {
             font-size: 1.2rem;
@@ -24,6 +32,10 @@
         @include mixins.responsive(sm) {
             font-size: 1.4rem;
         }
+
+        @include mixins.responsive(md) {
+            font-size: 1.4rem;
+        } 
     }
 
     h2 > span {
@@ -47,6 +59,11 @@
             display: block;
             font-size: 1.5rem;
         }
+
+        @include mixins.responsive(lg) {
+            display: none;
+            font-size: 1.5rem;
+        }
     }
 
     &-menu {
@@ -61,6 +78,11 @@
 
         @include mixins.responsive(sm) {
             display: none;
+        }
+
+        @include mixins.responsive(lg) {
+            display: block;
+            display: flex;
         }
 
         &-item > a {

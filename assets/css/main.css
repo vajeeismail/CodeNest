@@ -603,12 +603,27 @@ a {
     padding: 1rem 2rem;
   }
 }
+@media only screen and (min-width: 768px) {
+  .header {
+    padding: 1rem 2rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .header {
+    padding: 1rem 6rem;
+  }
+}
 @media only screen and (max-width: 576px) {
   .header h2 {
     font-size: 1.2rem;
   }
 }
 @media only screen and (min-width: 576px) {
+  .header h2 {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (min-width: 768px) {
   .header h2 {
     font-size: 1.4rem;
   }
@@ -638,6 +653,12 @@ a {
     font-size: 1.5rem;
   }
 }
+@media only screen and (min-width: 992px) {
+  .header .nav-menu-bar {
+    display: none;
+    font-size: 1.5rem;
+  }
+}
 .header-menu {
   display: flex;
   align-items: center;
@@ -652,6 +673,12 @@ a {
 @media only screen and (min-width: 576px) {
   .header-menu {
     display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .header-menu {
+    display: block;
+    display: flex;
   }
 }
 .header-menu-item > a {
@@ -687,7 +714,7 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .background-shapes .box1 {
-    top: 25%;
+    top: 33%;
     left: 5%;
   }
 }
@@ -705,8 +732,7 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .background-shapes .box2 {
-    top: 60%;
-    left: 30%;
+    display: none;
   }
 }
 .background-shapes .box3 {
@@ -721,6 +747,12 @@ a {
   transform: rotate(360deg);
   animation: box-shape linear 5s infinite;
 }
+@media only screen and (min-width: 576px) {
+  .background-shapes .box3 {
+    top: 40%;
+    right: 15%;
+  }
+}
 .background-shapes .dot1 {
   position: absolute;
   top: 77%;
@@ -734,6 +766,18 @@ a {
   transform: rotate(360deg);
   animation: box-shape linear 5s infinite;
 }
+@media only screen and (min-width: 576px) {
+  .background-shapes .dot1 {
+    top: 95%;
+    left: 6%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .background-shapes .dot1 {
+    top: 60%;
+    left: 8%;
+  }
+}
 .background-shapes .dot2 {
   position: absolute;
   top: 18%;
@@ -746,6 +790,12 @@ a {
   z-index: -1;
   transform: rotate(360deg);
   animation: box-shape linear 5s infinite;
+}
+@media only screen and (min-width: 576px) {
+  .background-shapes .dot2 {
+    top: 25%;
+    left: 95%;
+  }
 }
 .background-shapes .dot3 {
   position: absolute;
@@ -762,7 +812,7 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .background-shapes .dot3 {
-    top: 60%;
+    top: 53%;
     left: 70%;
   }
 }
@@ -791,7 +841,7 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .background-shapes .heart1 {
-    top: 48%;
+    top: 58%;
     left: 6%;
   }
 }
@@ -805,6 +855,12 @@ a {
   animation: box-shape linear 5s infinite;
   color: red;
 }
+@media only screen and (min-width: 576px) {
+  .background-shapes .heart2 {
+    top: 65%;
+    right: 8%;
+  }
+}
 .background-shapes .circle1 {
   position: absolute;
   top: 88%;
@@ -817,6 +873,11 @@ a {
   z-index: -1;
   transform: rotate(360deg);
   animation: box-shape linear 5s infinite;
+}
+@media only screen and (min-width: 576px) {
+  .background-shapes .circle1 {
+    display: none;
+  }
 }
 .background-shapes .circle2 {
   position: absolute;
@@ -954,6 +1015,12 @@ a {
     flex-direction: column;
   }
 }
+@media only screen and (min-width: 992px) {
+  .hero-area {
+    padding: 6rem 8rem;
+    flex-direction: row;
+  }
+}
 .hero-area img {
   width: 800px;
 }
@@ -965,7 +1032,12 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .hero-area img {
-    width: 400px;
+    width: 350px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .hero-area img {
+    width: 1000px;
   }
 }
 .hero-area-header {
@@ -973,6 +1045,11 @@ a {
 }
 .hero-area--content {
   max-width: 35cm;
+}
+@media only screen and (min-width: 992px) {
+  .hero-area--content {
+    max-width: 25cm;
+  }
 }
 .hero-area--title {
   font-size: 2rem;
@@ -985,7 +1062,12 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .hero-area--title {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .hero-area--title {
+    font-size: 1.8rem;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -997,6 +1079,18 @@ a {
 @media only screen and (min-width: 576px) {
   .hero-area--title > span {
     font-size: 1.6rem;
+    font-weight: 400;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .hero-area--title > span {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .hero-area--title > span {
+    font-size: 1.8rem;
     font-weight: 400;
   }
 }
@@ -1014,7 +1108,7 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .hero-area--desc {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -1024,7 +1118,7 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .hero-area button {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -1053,11 +1147,6 @@ a {
 .about-area--img {
   width: 70rem;
 }
-@media only screen and (min-width: 576px) {
-  .about-area--img {
-    width: 35rem;
-  }
-}
 .about-area--content {
   color: white;
 }
@@ -1066,13 +1155,13 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .about-area--content h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
   }
 }
 @media only screen and (min-width: 576px) {
   .about-area--content h2 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-align: center;
   }
 }
@@ -1113,12 +1202,12 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .roadmap-area--header h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 576px) {
   .roadmap-area--header h2 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
 }
 .roadmap-area--header p {
@@ -1201,14 +1290,14 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .roadmap-area--item--content h5 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1rem;
   }
 }
 @media only screen and (min-width: 576px) {
   .roadmap-area--item--content h5 {
-    font-weight: 600;
-    font-size: 1.2rem;
+    font-weight: 400;
+    font-size: 1rem;
   }
 }
 .roadmap-area--item--content p {
@@ -1218,7 +1307,12 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .roadmap-area--item--content p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .roadmap-area--item--content p {
+    font-size: 0.6rem;
   }
 }
 .roadmap-area--item::before {
@@ -1237,7 +1331,7 @@ a {
   .roadmap-area--item::before {
     transform: rotate(90deg);
     top: 170px;
-    left: 85px;
+    left: 70px;
   }
 }
 .roadmap-area--item:hover::before {
@@ -1282,7 +1376,7 @@ a {
 @media only screen and (min-width: 576px) {
   .projects-area {
     padding: 4rem 3rem;
-    margin-top: 4%;
+    margin-top: 0%;
   }
 }
 .projects-area--header {
@@ -1294,12 +1388,12 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .projects-area--header h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 576px) {
   .projects-area--header h3 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
 }
 .projects-area--header p {
@@ -1328,7 +1422,8 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .projects-area--cards {
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .projects-area--card {
@@ -1341,12 +1436,12 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .projects-area--card {
-    max-width: 220px;
+    max-width: 200px;
   }
 }
 @media only screen and (min-width: 576px) {
   .projects-area--card {
-    max-width: 205px;
+    max-width: 240px;
   }
 }
 .projects-area--card--img {
@@ -1354,12 +1449,12 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .projects-area--card--img {
-    width: 220px;
+    width: 200px;
   }
 }
 @media only screen and (min-width: 576px) {
   .projects-area--card--img {
-    width: 205px;
+    width: 240px;
   }
 }
 .projects-area--card--body {

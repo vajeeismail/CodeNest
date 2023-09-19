@@ -15,7 +15,7 @@
 
     @include mixins.responsive(sm) {
         padding: 4rem 3rem;
-        margin-top: 4%;
+        margin-top: 0%;
     }
 
     &--header {
@@ -26,11 +26,11 @@
             color: white;
 
             @include mixins.responsive(xs) {
-                font-size: 1.2rem;
+                font-size: 1rem;
             }
 
             @include mixins.responsive(sm) {
-                font-size: 1.6rem;
+                font-size: 1.3rem;
             }
         }
 
@@ -58,7 +58,8 @@
         }
 
         @include mixins.responsive(sm) {
-            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
         }
     }
 
@@ -71,23 +72,22 @@
         overflow: hidden;
 
         @include mixins.responsive(xs) {
-            max-width: 220px;
-            
+            max-width: 200px;   
         }
 
         @include mixins.responsive(sm) {
-            max-width: 205px;
+            max-width: 240px;
         }
 
         &--img {
             width: 270px;
 
             @include mixins.responsive(xs) {
-                width: 220px;
+                width: 200px;
             }
 
             @include mixins.responsive(sm) {
-                width: 205px;
+                width: 240px;
             }
         }
 

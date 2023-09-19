@@ -25,10 +25,6 @@
 
     &--img {
         width: 70rem;
-
-        @include mixins.responsive(sm) {
-            width: 35rem;
-        }
     }
 
     &--content {
@@ -38,12 +34,12 @@
             font-size: 2rem;
 
             @include mixins.responsive(xs) {
-                font-size: 1.2rem;
+                font-size: 1rem;
                 text-align: center;
             }
             
             @include mixins.responsive(sm) {
-                font-size: 1.6rem;
+                font-size: 1.3rem;
                 text-align: center;
             }      
         }
