@@ -22,6 +22,11 @@
             top: 33%;
             left: 5%;
         }
+
+        @include mixins.responsive(md) {
+            top: 15%;
+            left: 5%;
+        }
     }
 
     .box2 {
@@ -57,6 +62,11 @@
             top: 40%;
             right: 15%;
         }
+
+        @include mixins.responsive(md) {
+            top: 25%;
+            right: 12%;
+        }
     }
 
     .dot1 {
@@ -77,9 +87,9 @@
             left: 6%;
         }
 
-        @include mixins.responsive(lg) {
-            top: 60%;
-            left: 8%;
+        @include mixins.responsive(md) {
+            top: 52%;
+            left: 25%;
         }
     }
 
@@ -100,6 +110,11 @@
             top: 25%;
             left: 95%;
         }
+
+        @include mixins.responsive(md) {
+            top: 15%;
+            left: 95%;
+        }
     }
 
     .dot3 {
@@ -117,6 +132,11 @@
 
         @include mixins.responsive(sm) {
             top: 53%;
+            left: 70%;
+        }
+
+        @include mixins.responsive(md) {
+            top: 42%;
             left: 70%;
         }
     }
@@ -149,6 +169,11 @@
             top: 58%;
             left: 6%;
         }
+
+        @include mixins.responsive(md) {
+            top: 35%;
+            left: 6%;
+        }
     }
 
     .heart2{
@@ -163,6 +188,11 @@
 
         @include mixins.responsive(sm) {
             top: 65%;
+            right: 8%;
+        }
+
+        @include mixins.responsive(md) {
+            top: 50%;
             right: 8%;
         }
     }
@@ -183,6 +213,11 @@
         @include mixins.responsive(sm) {
             display: none;
         }
+
+        @include mixins.responsive(md) {
+            top: 60%;
+            left: 40%;
+        }
     }
 
     .circle2 {
@@ -197,5 +232,10 @@
         z-index: -1;
         transform: rotate(360deg);
         animation: box-shape linear 5s infinite;
+
+        @include mixins.responsive(md) {
+            top: 60%;
+            left: 40%;
+        }
     }
 }

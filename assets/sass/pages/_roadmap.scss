@@ -29,6 +29,10 @@
             @include mixins.responsive(sm) {
                 font-size: 1.3rem;
             }
+
+            @include mixins.responsive(md) {
+                font-size: 1.6rem;
+            }
         }
 
         p {
@@ -174,7 +178,7 @@
     }
 
     &:hover &--item {
-        margin-left: 3rem;
+        margin: 0% 2rem;
 
         @include mixins.responsive(xs) {
             margin-top: -1.5rem;
@@ -182,7 +186,13 @@
         }
 
         @include mixins.responsive(sm) {
-            margin-left: 1rem;
+            margin-top: -1.2rem;
+            margin-left: 0rem;
+        }
+
+        @include mixins.responsive(md) {
+            //margin-left: 2rem;
+            margin: 0% 1.2rem;
         }
     }
 }
