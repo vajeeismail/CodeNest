@@ -5,6 +5,10 @@
     @include mixins.responsive(xs) {
         display: none;
     }
+
+    // @include mixins.responsive(sm) {
+    //     display:none;
+    // }
     
     .box1 {
         position: absolute;
@@ -17,6 +21,11 @@
         border-radius: 0.35rem;
         transform: rotate(360deg);
         animation: box-shape linear 5s infinite;
+
+        @include mixins.responsive(sm) {
+            top: 25%;
+            left: 5%;
+        }
     }
 
     .box2 {
@@ -30,6 +39,11 @@
         border-radius: 0.35rem;
         transform: rotate(360deg);
         animation: box-shape linear 5s infinite;
+
+        @include mixins.responsive(sm) {
+            top: 60%;
+            left: 30%;
+        }
     }
 
     .box3 {
@@ -85,6 +99,11 @@
         z-index: -1;
         transform: rotate(360deg);
         animation: box-shape linear 5s infinite;
+
+        @include mixins.responsive(sm) {
+            top: 60%;
+            left: 70%;
+        }
     }
 
     .dot4 {
@@ -110,6 +129,11 @@
         transform: rotate(360deg);
         animation: box-shape linear 5s infinite;
         color: red;
+
+        @include mixins.responsive(sm) {
+            top: 48%;
+            left: 6%;
+        }
     }
 
     .heart2{
@@ -120,7 +144,7 @@
         z-index: -1;
         transform: rotate(360deg);
         animation: box-shape linear 5s infinite;
-        color: red;
+        color: red;   
     }
 
     .circle1 {

@@ -598,10 +598,41 @@ a {
     padding: 1rem 2rem;
   }
 }
+@media only screen and (min-width: 576px) {
+  .header {
+    padding: 1rem 2rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .header h2 {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .header h2 {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .header h2 > span {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .header h2 > span {
+    font-size: 1.4rem;
+  }
+}
 .header .nav-menu-bar {
   display: none;
 }
 @media only screen and (max-width: 576px) {
+  .header .nav-menu-bar {
+    display: block;
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (min-width: 576px) {
   .header .nav-menu-bar {
     display: block;
     font-size: 1.5rem;
@@ -614,6 +645,11 @@ a {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 576px) {
+  .header-menu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) {
   .header-menu {
     display: none;
   }
@@ -649,6 +685,12 @@ a {
   transform: rotate(360deg);
   animation: box-shape linear 5s infinite;
 }
+@media only screen and (min-width: 576px) {
+  .background-shapes .box1 {
+    top: 25%;
+    left: 5%;
+  }
+}
 .background-shapes .box2 {
   position: absolute;
   top: 77%;
@@ -660,6 +702,12 @@ a {
   border-radius: 0.35rem;
   transform: rotate(360deg);
   animation: box-shape linear 5s infinite;
+}
+@media only screen and (min-width: 576px) {
+  .background-shapes .box2 {
+    top: 60%;
+    left: 30%;
+  }
 }
 .background-shapes .box3 {
   position: absolute;
@@ -712,6 +760,12 @@ a {
   transform: rotate(360deg);
   animation: box-shape linear 5s infinite;
 }
+@media only screen and (min-width: 576px) {
+  .background-shapes .dot3 {
+    top: 60%;
+    left: 70%;
+  }
+}
 .background-shapes .dot4 {
   position: absolute;
   top: 91%;
@@ -734,6 +788,12 @@ a {
   transform: rotate(360deg);
   animation: box-shape linear 5s infinite;
   color: red;
+}
+@media only screen and (min-width: 576px) {
+  .background-shapes .heart1 {
+    top: 48%;
+    left: 6%;
+  }
 }
 .background-shapes .heart2 {
   font-size: 1.5rem;
@@ -783,6 +843,11 @@ a {
     font-size: 1.3rem;
   }
 }
+@media only screen and (min-width: 576px) {
+  .footer-area h2 {
+    font-size: 1.4rem;
+  }
+}
 .footer-area img {
   width: 70px;
   transform: rotate(360deg);
@@ -793,6 +858,11 @@ a {
     width: 50px;
   }
 }
+@media only screen and (min-width: 576px) {
+  .footer-area img {
+    width: 60px;
+  }
+}
 .footer-area p {
   color: lightgrey;
   font-family: "Pacifico", cursive;
@@ -800,6 +870,11 @@ a {
 @media only screen and (max-width: 576px) {
   .footer-area p {
     font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .footer-area p {
+    font-size: 1rem;
   }
 }
 .footer-area a {
@@ -825,6 +900,12 @@ a {
     padding: 0 5px;
   }
 }
+@media only screen and (min-width: 576px) {
+  .footer-area .social-icons > a > i {
+    font-size: 1.3rem;
+    padding: 0 7px;
+  }
+}
 .footer-area .copyright-legal p {
   font-size: 0.8rem;
   font-family: "Poppins", sans-serif;
@@ -832,6 +913,11 @@ a {
 @media only screen and (max-width: 576px) {
   .footer-area .copyright-legal p {
     font-size: 0.5rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .footer-area .copyright-legal p {
+    font-size: 0.6rem;
   }
 }
 .footer-area .reference p, .footer-area .reference p > cite > a {
@@ -844,6 +930,11 @@ a {
     font-size: 0.5rem;
   }
 }
+@media only screen and (min-width: 576px) {
+  .footer-area .reference p, .footer-area .reference p > cite > a {
+    font-size: 0.6rem;
+  }
+}
 
 .hero-area {
   padding: 8rem 18rem;
@@ -853,8 +944,28 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .hero-area {
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .hero-area {
+    padding: 4rem 6rem;
+    flex-direction: column;
+  }
+}
+.hero-area img {
+  width: 800px;
+}
+@media only screen and (max-width: 576px) {
+  .hero-area img {
+    width: 300px;
+    padding-left: 0%;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .hero-area img {
+    width: 400px;
   }
 }
 .hero-area-header {
@@ -869,12 +980,23 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .hero-area--title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .hero-area--title {
+    font-size: 1.7rem;
   }
 }
 @media only screen and (max-width: 576px) {
   .hero-area--title > span {
     font-size: 1.2rem;
+    font-weight: 400;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .hero-area--title > span {
+    font-size: 1.6rem;
     font-weight: 400;
   }
 }
@@ -887,7 +1009,12 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .hero-area--desc {
-    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .hero-area--desc {
+    font-size: 1.1rem;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -895,13 +1022,9 @@ a {
     font-size: 0.7rem;
   }
 }
-.hero-area img {
-  width: 800px;
-}
-@media only screen and (max-width: 576px) {
-  .hero-area img {
-    width: 300px;
-    padding-left: 0%;
+@media only screen and (min-width: 576px) {
+  .hero-area button {
+    font-size: 1rem;
   }
 }
 
@@ -920,8 +1043,20 @@ a {
     margin-top: 0;
   }
 }
+@media only screen and (min-width: 576px) {
+  .about-area {
+    padding: 4rem 6rem;
+    flex-direction: column;
+    margin-top: 0%;
+  }
+}
 .about-area--img {
   width: 70rem;
+}
+@media only screen and (min-width: 576px) {
+  .about-area--img {
+    width: 35rem;
+  }
 }
 .about-area--content {
   color: white;
@@ -931,7 +1066,14 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .about-area--content h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .about-area--content h2 {
+    font-size: 1.6rem;
+    text-align: center;
   }
 }
 .about-area--content p {
@@ -940,6 +1082,11 @@ a {
   text-align: justify;
 }
 @media only screen and (max-width: 576px) {
+  .about-area--content p {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 576px) {
   .about-area--content p {
     font-size: 1rem;
   }
@@ -952,16 +1099,37 @@ a {
   .roadmap-area {
     padding: 4rem 2rem;
     flex-direction: column;
-    margin-top: 0;
+    margin-top: 0%;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .roadmap-area {
+    padding: 4rem 6rem;
+    margin-top: 4%;
   }
 }
 .roadmap-area--header {
   text-align: center;
 }
+@media only screen and (max-width: 576px) {
+  .roadmap-area--header h2 {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .roadmap-area--header h2 {
+    font-size: 1.6rem;
+  }
+}
 .roadmap-area--header p {
-  padding-top: 0.7rem;
+  padding-top: 0.9rem;
   font-size: 0.85em;
   color: grey;
+}
+@media only screen and (max-width: 576px) {
+  .roadmap-area--header p {
+    font-size: 0.65rem;
+  }
 }
 .roadmap-area--items {
   display: flex;
@@ -972,7 +1140,12 @@ a {
 @media only screen and (max-width: 576px) {
   .roadmap-area--items {
     flex-direction: column;
-    margin-top: 0;
+    margin-top: 0.5rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .roadmap-area--items {
+    margin-top: 1rem;
   }
 }
 .roadmap-area--item {
@@ -983,6 +1156,16 @@ a {
   max-width: 300px;
   cursor: pointer;
   filter: grayscale(100%);
+}
+@media only screen and (max-width: 576px) {
+  .roadmap-area--item {
+    padding: 2rem 1rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .roadmap-area--item {
+    padding: 3rem 2rem;
+  }
 }
 .roadmap-area--item:hover .roadmap-area--item--img::after {
   filter: grayscale(0%);
@@ -1016,10 +1199,27 @@ a {
   font-size: 1.2rem;
   font-weight: 600;
 }
+@media only screen and (max-width: 576px) {
+  .roadmap-area--item--content h5 {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .roadmap-area--item--content h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+}
 .roadmap-area--item--content p {
   color: grey;
   line-height: 1.5;
   font-size: 0.8rem;
+}
+@media only screen and (max-width: 576px) {
+  .roadmap-area--item--content p {
+    font-size: 0.7rem;
+  }
 }
 .roadmap-area--item::before {
   transition: 500ms;
@@ -1036,8 +1236,8 @@ a {
 @media only screen and (max-width: 576px) {
   .roadmap-area--item::before {
     transform: rotate(90deg);
-    top: 220px;
-    left: 107px;
+    top: 170px;
+    left: 85px;
   }
 }
 .roadmap-area--item:hover::before {
@@ -1062,6 +1262,11 @@ a {
     margin-left: 0rem;
   }
 }
+@media only screen and (min-width: 576px) {
+  .roadmap-area:hover .roadmap-area--item {
+    margin-left: 1rem;
+  }
+}
 
 .projects-area {
   padding: 8rem 14rem;
@@ -1071,7 +1276,13 @@ a {
 @media only screen and (max-width: 576px) {
   .projects-area {
     padding: 4rem 2rem;
-    margin-top: 0;
+    margin-top: 0%;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .projects-area {
+    padding: 4rem 3rem;
+    margin-top: 4%;
   }
 }
 .projects-area--header {
@@ -1083,7 +1294,12 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .projects-area--header h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .projects-area--header h3 {
+    font-size: 1.6rem;
   }
 }
 .projects-area--header p {
@@ -1092,7 +1308,12 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .projects-area--header p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .projects-area--header p {
+    font-size: 0.9rem;
   }
 }
 .projects-area--cards {
@@ -1103,6 +1324,11 @@ a {
   .projects-area--cards {
     flex-direction: column;
     align-items: center;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .projects-area--cards {
+    justify-content: space-between;
   }
 }
 .projects-area--card {
@@ -1118,12 +1344,22 @@ a {
     max-width: 220px;
   }
 }
+@media only screen and (min-width: 576px) {
+  .projects-area--card {
+    max-width: 205px;
+  }
+}
 .projects-area--card--img {
   width: 270px;
 }
 @media only screen and (max-width: 576px) {
   .projects-area--card--img {
     width: 220px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .projects-area--card--img {
+    width: 205px;
   }
 }
 .projects-area--card--body {
@@ -1135,6 +1371,11 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .projects-area--card--body h4 {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .projects-area--card--body h4 {
     font-size: 1rem;
   }
 }
@@ -1145,7 +1386,13 @@ a {
 @media only screen and (max-width: 576px) {
   .projects-area--card--body p {
     line-height: 1.5;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .projects-area--card--body p {
+    line-height: 1.5;
+    font-size: 0.8rem;
   }
 }
 .projects-area--card a {
@@ -1165,6 +1412,12 @@ a {
     margin-top: 0;
   }
 }
+@media only screen and (min-width: 576px) {
+  .contact-area {
+    padding: 6rem 1rem;
+    margin-top: 0%;
+  }
+}
 .contact-area .contact-card {
   background-color: white;
   display: flex;
@@ -1181,6 +1434,11 @@ a {
     align-items: initial;
   }
 }
+@media only screen and (min-width: 576px) {
+  .contact-area .contact-card {
+    align-items: center;
+  }
+}
 .contact-area .contact-card--header {
   flex-grow: 1;
 }
@@ -1190,4 +1448,15 @@ a {
 .contact-area .contact-card--header p {
   color: grey;
   font-size: 0.9rem;
+}
+@media only screen and (min-width: 576px) {
+  .contact-area .contact-card--header p {
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .contact-area img {
+    width: 400px;
+    padding-left: 1rem;
+  }
 }/*# sourceMappingURL=main.css.map */

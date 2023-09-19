@@ -11,6 +11,11 @@
         margin-top: 0;
     }
 
+    @include mixins.responsive(sm) {
+        padding: 6rem 1rem;
+        margin-top: 0%;
+    }
+
     .contact-card {
         background-color: white;
         display: flex;
@@ -26,6 +31,10 @@
             align-items: initial;
         }
 
+        @include mixins.responsive(sm) {
+            align-items: center;
+        }
+
         &--header {
             flex-grow: 1;
 
@@ -36,7 +45,18 @@
             p {
                 color: grey;
                 font-size: 0.9rem;
+
+                @include mixins.responsive(sm) {
+                    font-size: 0.6rem;
+                }
             }
+        }
+    }
+
+    img {
+        @include mixins.responsive(sm) {
+            width: 400px;
+            padding-left: 1rem;
         }
     }
 }

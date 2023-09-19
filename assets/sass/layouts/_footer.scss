@@ -9,12 +9,13 @@
     background-color: func.theme-colors();
     color: white;
 
-    @include mixins.responsive(xs) {
-    }
-
     h2 {
         @include mixins.responsive(xs) {
             font-size: 1.3rem;
+        }
+
+        @include mixins.responsive(sm) {
+            font-size: 1.4rem;
         } 
     }
 
@@ -25,6 +26,10 @@
 
         @include mixins.responsive(xs) {
             width: 50px;
+        }
+
+        @include mixins.responsive(sm) {
+            width: 60px;
         } 
     }
 
@@ -34,6 +39,10 @@
 
         @include mixins.responsive(xs) {
             font-size: 0.8rem;
+        }
+
+        @include mixins.responsive(sm) {
+            font-size: 1rem;
         } 
     }
 
@@ -60,6 +69,11 @@
         @include mixins.responsive(xs) {
             font-size: 1rem;
             padding: 0 5px;
+        }
+
+        @include mixins.responsive(sm) {
+            font-size: 1.3rem;
+            padding: 0 7px;
         } 
     }
 
@@ -70,6 +84,10 @@
             
             @include mixins.responsive(xs) {
                 font-size: 0.5rem;
+            }
+
+            @include mixins.responsive(sm) {
+                font-size: 0.6rem;
             } 
         }
     }
@@ -83,6 +101,10 @@
 
             @include mixins.responsive(xs) {
                 font-size: 0.5rem;
+            }
+
+            @include mixins.responsive(sm) {
+                font-size: 0.6rem;
             } 
         }
     }
