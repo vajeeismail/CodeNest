@@ -21,6 +21,10 @@
         @include mixins.responsive(md) {
             font-size: 1.5rem;
         }
+
+        @include mixins.responsive(lg) {
+            font-size: 1.8rem;
+        }
     }
 
     img {
@@ -39,6 +43,10 @@
         @include mixins.responsive(md) {
             width: 65px;
         }
+
+        @include mixins.responsive(lg) {
+            width: 80px;
+        }
     }
 
     p {
@@ -55,6 +63,10 @@
         
         @include mixins.responsive(md) {
             font-size: 1.1rem;
+        }
+
+        @include mixins.responsive(lg) {
+            font-size: 1.5rem;
         }
     }
 
@@ -84,14 +96,18 @@
         }
 
         @include mixins.responsive(sm) {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             padding: 0 7px;
         }
         
         @include mixins.responsive(md) {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             padding: 0 8px;
-        } 
+        }
+
+        @include mixins.responsive(lg) {
+            font-size: 1.5rem;
+        }
     }
 
     .copyright-legal {
@@ -109,6 +125,10 @@
 
             @include mixins.responsive(md) {
                 font-size: 0.7rem;
+            }
+
+            @include mixins.responsive(lg) {
+                font-size: 0.8rem;
             }
         }
     }
@@ -130,7 +150,11 @@
 
             @include mixins.responsive(md) {
                 font-size: 0.7rem;
-            } 
+            }
+
+            @include mixins.responsive(lg) {
+                font-size: 0.8rem;
+            }
         }
     }
 }

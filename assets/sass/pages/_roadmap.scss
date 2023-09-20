@@ -13,7 +13,12 @@
     }
 
     @include mixins.responsive(sm) {
-        padding: 4rem 6rem;
+        padding: 4rem 4rem;
+        margin-top: 4%;
+    }
+
+    @include mixins.responsive(lg) {
+        padding: 6rem 8rem;
         margin-top: 4%;
     }
 
@@ -33,6 +38,10 @@
             @include mixins.responsive(md) {
                 font-size: 1.6rem;
             }
+
+            @include mixins.responsive(lg) {
+                font-size: 2rem;
+            }
         }
 
         p {
@@ -42,6 +51,10 @@
 
             @include mixins.responsive(xs) {
                 font-size: 0.65rem;
+            }
+
+            @include mixins.responsive(lg) {
+                font-size: 0.85rem;
             }
         }
     }
@@ -60,6 +73,10 @@
         @include mixins.responsive(sm) {
             margin-top: 1rem;
         }
+        
+        @include mixins.responsive(lg) {
+            margin-top: 2rem;
+        }
     }
 
     &--item {
@@ -76,7 +93,15 @@
         }
 
         @include mixins.responsive(sm) {
-            padding: 3rem 2rem;
+            padding: 3rem 3rem;
+        }
+
+        @include mixins.responsive(md) {
+            padding: 3rem 1rem;
+        }
+
+        @include mixins.responsive(lg) {
+            padding: 3rem 1rem;
         }
 
         &:hover &--img::after {
@@ -123,6 +148,11 @@
                     font-weight: 400;
                     font-size: 1rem;
                 }
+
+                @include mixins.responsive(lg) {
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                }
             }
 
             p {
@@ -136,6 +166,10 @@
 
                 @include mixins.responsive(sm) {
                     font-size: 0.6rem;
+                }
+
+                @include mixins.responsive(lg) {
+                    font-size: 0.8rem;
                 }
             }
         }
@@ -161,7 +195,12 @@
 
         &:hover::before {
             color: func.theme-colors();
-            right: -25px;
+            right: -30px;
+
+            @include mixins.responsive(xs) {
+                top: 180px;
+            }
+
         }
 
         &:hover h5 {
@@ -174,25 +213,6 @@
 
         &:hover {
             filter: grayscale(0%);
-        }
-    }
-
-    &:hover &--item {
-        margin: 0% 2rem;
-
-        @include mixins.responsive(xs) {
-            margin-top: -1.5rem;
-            margin-left: 0rem;
-        }
-
-        @include mixins.responsive(sm) {
-            margin-top: -1.2rem;
-            margin-left: 0rem;
-        }
-
-        @include mixins.responsive(md) {
-            //margin-left: 2rem;
-            margin: 0% 1.2rem;
         }
     }
 }

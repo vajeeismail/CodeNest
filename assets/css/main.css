@@ -608,6 +608,11 @@ a {
     padding: 1rem 3rem;
   }
 }
+@media only screen and (min-width: 992px) {
+  .header {
+    padding: 1rem 5rem;
+  }
+}
 @media only screen and (max-width: 576px) {
   .header h2 {
     font-size: 1.2rem;
@@ -621,6 +626,11 @@ a {
 @media only screen and (min-width: 768px) {
   .header h2 {
     font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .header h2 {
+    font-size: 1.6rem;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -719,6 +729,12 @@ a {
     left: 5%;
   }
 }
+@media only screen and (min-width: 992px) {
+  .background-shapes .box1 {
+    top: 18%;
+    left: 5%;
+  }
+}
 .background-shapes .box2 {
   position: absolute;
   top: 77%;
@@ -734,6 +750,13 @@ a {
 @media only screen and (min-width: 576px) {
   .background-shapes .box2 {
     display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .background-shapes .box2 {
+    display: block;
+    top: 58%;
+    left: 30%;
   }
 }
 .background-shapes .box3 {
@@ -783,6 +806,12 @@ a {
   .background-shapes .dot1 {
     top: 52%;
     left: 25%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .background-shapes .dot1 {
+    top: 60%;
+    left: 5%;
   }
 }
 .background-shapes .dot2 {
@@ -835,6 +864,12 @@ a {
     left: 70%;
   }
 }
+@media only screen and (min-width: 992px) {
+  .background-shapes .dot3 {
+    top: 50%;
+    left: 65%;
+  }
+}
 .background-shapes .dot4 {
   position: absolute;
   top: 91%;
@@ -847,6 +882,12 @@ a {
   z-index: -1;
   transform: rotate(360deg);
   animation: box-shape linear 5s infinite;
+}
+@media only screen and (min-width: 992px) {
+  .background-shapes .dot4 {
+    top: 32%;
+    left: 40%;
+  }
 }
 .background-shapes .heart1 {
   font-size: 1.5rem;
@@ -892,6 +933,12 @@ a {
     right: 8%;
   }
 }
+@media only screen and (min-width: 992px) {
+  .background-shapes .heart2 {
+    top: 45%;
+    left: 90%;
+  }
+}
 .background-shapes .circle1 {
   position: absolute;
   top: 88%;
@@ -916,6 +963,13 @@ a {
     left: 40%;
   }
 }
+@media only screen and (min-width: 992px) {
+  .background-shapes .circle1 {
+    display: block;
+    top: 20%;
+    left: 62%;
+  }
+}
 .background-shapes .circle2 {
   position: absolute;
   top: 24%;
@@ -928,12 +982,6 @@ a {
   z-index: -1;
   transform: rotate(360deg);
   animation: box-shape linear 5s infinite;
-}
-@media only screen and (min-width: 768px) {
-  .background-shapes .circle2 {
-    top: 60%;
-    left: 40%;
-  }
 }
 
 .footer-area {
@@ -957,6 +1005,11 @@ a {
     font-size: 1.5rem;
   }
 }
+@media only screen and (min-width: 992px) {
+  .footer-area h2 {
+    font-size: 1.8rem;
+  }
+}
 .footer-area img {
   width: 80px;
   transform: rotate(360deg);
@@ -977,6 +1030,11 @@ a {
     width: 65px;
   }
 }
+@media only screen and (min-width: 992px) {
+  .footer-area img {
+    width: 80px;
+  }
+}
 .footer-area p {
   color: lightgrey;
   font-family: "Pacifico", cursive;
@@ -994,6 +1052,11 @@ a {
 @media only screen and (min-width: 768px) {
   .footer-area p {
     font-size: 1.1rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .footer-area p {
+    font-size: 1.5rem;
   }
 }
 .footer-area a {
@@ -1021,14 +1084,19 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .footer-area .social-icons > a > i {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding: 0 7px;
   }
 }
 @media only screen and (min-width: 768px) {
   .footer-area .social-icons > a > i {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 0 8px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .footer-area .social-icons > a > i {
+    font-size: 1.5rem;
   }
 }
 .footer-area .copyright-legal p {
@@ -1048,6 +1116,11 @@ a {
 @media only screen and (min-width: 768px) {
   .footer-area .copyright-legal p {
     font-size: 0.7rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .footer-area .copyright-legal p {
+    font-size: 0.8rem;
   }
 }
 .footer-area .reference p, .footer-area .reference p > cite > a {
@@ -1070,6 +1143,11 @@ a {
     font-size: 0.7rem;
   }
 }
+@media only screen and (min-width: 992px) {
+  .footer-area .reference p, .footer-area .reference p > cite > a {
+    font-size: 0.8rem;
+  }
+}
 
 .hero-area {
   padding: 8rem 18rem;
@@ -1089,6 +1167,12 @@ a {
     flex-direction: column;
   }
 }
+@media only screen and (min-width: 992px) {
+  .hero-area {
+    padding: 6rem 8rem;
+    flex-direction: row;
+  }
+}
 .hero-area img {
   width: 800px;
 }
@@ -1105,7 +1189,7 @@ a {
 }
 @media only screen and (min-width: 992px) {
   .hero-area img {
-    width: 1000px;
+    width: 800px;
   }
 }
 .hero-area-header {
@@ -1138,6 +1222,11 @@ a {
     font-size: 1.7rem;
   }
 }
+@media only screen and (min-width: 992px) {
+  .hero-area--title {
+    font-size: 2rem;
+  }
+}
 @media only screen and (max-width: 576px) {
   .hero-area--title > span {
     font-size: 1.2rem;
@@ -1158,7 +1247,7 @@ a {
 }
 @media only screen and (min-width: 992px) {
   .hero-area--title > span {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 400;
   }
 }
@@ -1179,6 +1268,11 @@ a {
     font-size: 1rem;
   }
 }
+@media only screen and (min-width: 992px) {
+  .hero-area--desc {
+    font-size: 1.2rem;
+  }
+}
 @media only screen and (max-width: 576px) {
   .hero-area button {
     font-size: 0.7rem;
@@ -1187,6 +1281,11 @@ a {
 @media only screen and (min-width: 576px) {
   .hero-area button {
     font-size: 0.7rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .hero-area button {
+    font-size: 1.2rem;
   }
 }
 
@@ -1212,8 +1311,20 @@ a {
     margin-top: 0%;
   }
 }
+@media only screen and (min-width: 992px) {
+  .about-area {
+    padding: 6rem 6rem;
+    flex-direction: row;
+    margin-top: 4%;
+  }
+}
 .about-area--img {
   width: 70rem;
+}
+@media only screen and (min-width: 992px) {
+  .about-area--img {
+    width: 90rem;
+  }
 }
 .about-area--content {
   color: white;
@@ -1233,10 +1344,10 @@ a {
     text-align: center;
   }
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 992px) {
   .about-area--content h2 {
-    font-size: 1.6rem;
-    text-align: center;
+    font-size: 1.8rem;
+    text-align: left;
   }
 }
 .about-area--content p {
@@ -1254,7 +1365,7 @@ a {
     font-size: 1rem;
   }
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 992px) {
   .about-area--content p {
     font-size: 1.3rem;
   }
@@ -1272,7 +1383,13 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .roadmap-area {
-    padding: 4rem 6rem;
+    padding: 4rem 4rem;
+    margin-top: 4%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .roadmap-area {
+    padding: 6rem 8rem;
     margin-top: 4%;
   }
 }
@@ -1294,6 +1411,11 @@ a {
     font-size: 1.6rem;
   }
 }
+@media only screen and (min-width: 992px) {
+  .roadmap-area--header h2 {
+    font-size: 2rem;
+  }
+}
 .roadmap-area--header p {
   padding-top: 0.9rem;
   font-size: 0.85em;
@@ -1302,6 +1424,11 @@ a {
 @media only screen and (max-width: 576px) {
   .roadmap-area--header p {
     font-size: 0.65rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .roadmap-area--header p {
+    font-size: 0.85rem;
   }
 }
 .roadmap-area--items {
@@ -1321,6 +1448,11 @@ a {
     margin-top: 1rem;
   }
 }
+@media only screen and (min-width: 992px) {
+  .roadmap-area--items {
+    margin-top: 2rem;
+  }
+}
 .roadmap-area--item {
   transition: 500ms;
   position: relative;
@@ -1337,7 +1469,17 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .roadmap-area--item {
-    padding: 3rem 2rem;
+    padding: 3rem 3rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .roadmap-area--item {
+    padding: 3rem 1rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .roadmap-area--item {
+    padding: 3rem 1rem;
   }
 }
 .roadmap-area--item:hover .roadmap-area--item--img::after {
@@ -1384,6 +1526,12 @@ a {
     font-size: 1rem;
   }
 }
+@media only screen and (min-width: 992px) {
+  .roadmap-area--item--content h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+}
 .roadmap-area--item--content p {
   color: grey;
   line-height: 1.5;
@@ -1397,6 +1545,11 @@ a {
 @media only screen and (min-width: 576px) {
   .roadmap-area--item--content p {
     font-size: 0.6rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .roadmap-area--item--content p {
+    font-size: 0.8rem;
   }
 }
 .roadmap-area--item::before {
@@ -1420,7 +1573,12 @@ a {
 }
 .roadmap-area--item:hover::before {
   color: #A60666;
-  right: -25px;
+  right: -30px;
+}
+@media only screen and (max-width: 576px) {
+  .roadmap-area--item:hover::before {
+    top: 180px;
+  }
 }
 .roadmap-area--item:hover h5 {
   color: #A60666;
@@ -1430,26 +1588,6 @@ a {
 }
 .roadmap-area--item:hover {
   filter: grayscale(0%);
-}
-.roadmap-area:hover .roadmap-area--item {
-  margin: 0% 2rem;
-}
-@media only screen and (max-width: 576px) {
-  .roadmap-area:hover .roadmap-area--item {
-    margin-top: -1.5rem;
-    margin-left: 0rem;
-  }
-}
-@media only screen and (min-width: 576px) {
-  .roadmap-area:hover .roadmap-area--item {
-    margin-top: -1.2rem;
-    margin-left: 0rem;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .roadmap-area:hover .roadmap-area--item {
-    margin: 0% 1.2rem;
-  }
 }
 
 .projects-area {
@@ -1466,6 +1604,12 @@ a {
 @media only screen and (min-width: 576px) {
   .projects-area {
     padding: 4rem 3rem;
+    margin-top: 0%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .projects-area {
+    padding: 6rem 6rem;
     margin-top: 0%;
   }
 }
@@ -1491,6 +1635,11 @@ a {
     font-size: 1.6rem;
   }
 }
+@media only screen and (min-width: 992px) {
+  .projects-area--header h3 {
+    font-size: 2rem;
+  }
+}
 .projects-area--header p {
   font-size: 1rem;
   color: rgb(185, 180, 180);
@@ -1503,6 +1652,11 @@ a {
 @media only screen and (min-width: 576px) {
   .projects-area--header p {
     font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .projects-area--header p {
+    font-size: 1rem;
   }
 }
 .projects-area--cards {
@@ -1543,6 +1697,11 @@ a {
     max-width: 215px;
   }
 }
+@media only screen and (min-width: 992px) {
+  .projects-area--card {
+    max-width: 260px;
+  }
+}
 .projects-area--card--img {
   width: 270px;
 }
@@ -1559,6 +1718,11 @@ a {
 @media only screen and (min-width: 768px) {
   .projects-area--card--img {
     width: 215px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .projects-area--card--img {
+    width: 260px;
   }
 }
 .projects-area--card--body {
@@ -1578,6 +1742,11 @@ a {
     font-size: 1rem;
   }
 }
+@media only screen and (min-width: 992px) {
+  .projects-area--card--body h4 {
+    font-size: 1.2rem;
+  }
+}
 .projects-area--card--body p {
   color: gray;
   line-height: 1.5;
@@ -1592,6 +1761,11 @@ a {
   .projects-area--card--body p {
     line-height: 1.5;
     font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .projects-area--card--body p {
+    font-size: 1rem;
   }
 }
 .projects-area--card a {
@@ -1613,7 +1787,13 @@ a {
 }
 @media only screen and (min-width: 576px) {
   .contact-area {
-    padding: 6rem 1rem;
+    padding: 8rem 1rem;
+    margin-top: 0%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .contact-area {
+    padding: 6rem 2rem;
     margin-top: 0%;
   }
 }
@@ -1653,9 +1833,20 @@ a {
     font-size: 0.6rem;
   }
 }
+@media only screen and (min-width: 992px) {
+  .contact-area .contact-card--header p {
+    font-size: 0.9rem;
+  }
+}
 @media only screen and (min-width: 576px) {
   .contact-area img {
     width: 400px;
     padding-left: 1rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .contact-area img {
+    width: 700px;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=main.css.map */

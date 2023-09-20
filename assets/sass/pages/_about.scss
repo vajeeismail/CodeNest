@@ -23,8 +23,18 @@
         margin-top: 0%;
     }
 
+    @include mixins.responsive(lg) {
+        padding: 6rem 6rem;
+        flex-direction: row;
+        margin-top: 4%;
+    }
+
     &--img {
         width: 70rem;
+
+        @include mixins.responsive(lg) {
+            width: 90rem;
+        }
     }
 
     &--content {
@@ -43,9 +53,9 @@
                 text-align: center;
             }
             
-            @include mixins.responsive(sm) {
-                font-size: 1.6rem;
-                text-align: center;
+            @include mixins.responsive(lg) {
+                font-size: 1.8rem;
+                text-align: left;
             }      
         }
 
@@ -63,7 +73,7 @@
                 font-size: 1rem;
             } 
 
-            @include mixins.responsive(sm) {
+            @include mixins.responsive(lg) {
                 font-size: 1.3rem;
             }   
         }

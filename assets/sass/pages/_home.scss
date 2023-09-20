@@ -16,6 +16,11 @@
         flex-direction: column;
     }
 
+    @include mixins.responsive(lg) {
+        padding: 6rem 8rem;
+        flex-direction: row;
+    }
+
     img {
         width: 800px;
         
@@ -29,7 +34,7 @@
         }
 
         @include mixins.responsive(lg) {
-            width: 1000px;
+            width: 800px;
         }
     }
 
@@ -61,6 +66,10 @@
             font-size: 1.7rem;
         }
 
+        @include mixins.responsive(lg) {
+            font-size: 2rem;
+        }
+
         & > span {
             @include mixins.responsive(xs) {
                 font-size: 1.2rem;
@@ -78,7 +87,7 @@
             }
 
             @include mixins.responsive(lg) {
-                font-size: 1.8rem;
+                font-size: 2rem;
                 font-weight: 400;
             }
         }
@@ -98,6 +107,10 @@
         @include mixins.responsive(sm) {
             font-size: 1rem;
         }
+
+        @include mixins.responsive(lg) {
+            font-size: 1.2rem;
+        }
     }
 
     button {
@@ -107,6 +120,9 @@
 
         @include mixins.responsive(sm) {
             font-size: 0.7rem;
+        }
+        @include mixins.responsive(lg) {
+            font-size: 1.2rem;
         }
     }
 }
