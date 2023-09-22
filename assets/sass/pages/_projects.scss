@@ -23,6 +23,11 @@
         margin-top: 0%;
     }
 
+    @include mixins.responsive(xlg) {
+        padding: 6rem 13rem;
+        margin-top: 4%;
+    }
+
     &--header {
         text-align: center;
         
@@ -103,6 +108,10 @@
             max-width: 260px;
         }
 
+        @include mixins.responsive(xlg) {
+            max-width: 300px;
+        }
+
         &--img {
             width: 270px;
 
@@ -120,6 +129,10 @@
 
             @include mixins.responsive(lg) {
                 width: 260px;
+            }
+
+            @include mixins.responsive(xlg) {
+                width: 300px;
             }
         }
 
@@ -159,6 +172,10 @@
 
                 @include mixins.responsive(lg) {
                     font-size: 1rem;
+                }
+
+                @include mixins.responsive(xlg) {
+                    padding: 0rem 0.8rem;
                 }
             }
         }

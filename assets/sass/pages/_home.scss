@@ -21,6 +21,10 @@
         flex-direction: row;
     }
 
+    @include mixins.responsive(xlg) {
+        padding: 6rem 15rem;
+    }
+
     img {
         width: 800px;
         
@@ -35,6 +39,10 @@
 
         @include mixins.responsive(lg) {
             width: 800px;
+        }
+
+        @include mixins.responsive(xlg) {
+            width: 1000px;
         }
     }
 

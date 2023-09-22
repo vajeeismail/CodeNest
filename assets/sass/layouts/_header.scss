@@ -24,6 +24,10 @@
         padding: 1rem 5rem;
     }
 
+    @include mixins.responsive(xlg) {
+        padding: 1rem 11rem;
+    }
+
     h2 {
         @include mixins.responsive(xs) {
             font-size: 1.2rem;
@@ -67,6 +71,11 @@
         @include mixins.responsive(lg) {
             display: none;
             font-size: 1.5rem;
+        }
+
+        @include mixins.responsive(zlg) {
+            display: none;
+            font-size: 1.8rem;
         }
     }
 

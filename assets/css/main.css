@@ -613,6 +613,11 @@ a {
     padding: 1rem 5rem;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .header {
+    padding: 1rem 11rem;
+  }
+}
 @media only screen and (max-width: 576px) {
   .header h2 {
     font-size: 1.2rem;
@@ -759,6 +764,12 @@ a {
     left: 30%;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .background-shapes .box2 {
+    top: 78%;
+    left: 30%;
+  }
+}
 .background-shapes .box3 {
   position: absolute;
   top: 30%;
@@ -781,6 +792,12 @@ a {
   .background-shapes .box3 {
     top: 25%;
     right: 12%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .background-shapes .box3 {
+    top: 50%;
+    right: 15%;
   }
 }
 .background-shapes .dot1 {
@@ -814,6 +831,12 @@ a {
     left: 5%;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .background-shapes .dot1 {
+    top: 85%;
+    left: 7%;
+  }
+}
 .background-shapes .dot2 {
   position: absolute;
   top: 18%;
@@ -836,6 +859,12 @@ a {
 @media only screen and (min-width: 768px) {
   .background-shapes .dot2 {
     top: 15%;
+    left: 95%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .background-shapes .dot2 {
+    top: 25%;
     left: 95%;
   }
 }
@@ -868,6 +897,12 @@ a {
   .background-shapes .dot3 {
     top: 50%;
     left: 65%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .background-shapes .dot3 {
+    top: 90%;
+    left: 80%;
   }
 }
 .background-shapes .dot4 {
@@ -907,8 +942,14 @@ a {
 }
 @media only screen and (min-width: 768px) {
   .background-shapes .heart1 {
-    top: 35%;
+    top: 45%;
     left: 6%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .background-shapes .heart1 {
+    top: 55%;
+    left: 10%;
   }
 }
 .background-shapes .heart2 {
@@ -939,6 +980,12 @@ a {
     left: 90%;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .background-shapes .heart2 {
+    top: 75%;
+    left: 92%;
+  }
+}
 .background-shapes .circle1 {
   position: absolute;
   top: 88%;
@@ -966,8 +1013,8 @@ a {
 @media only screen and (min-width: 992px) {
   .background-shapes .circle1 {
     display: block;
-    top: 20%;
-    left: 62%;
+    top: 82%;
+    left: 60%;
   }
 }
 .background-shapes .circle2 {
@@ -982,6 +1029,13 @@ a {
   z-index: -1;
   transform: rotate(360deg);
   animation: box-shape linear 5s infinite;
+}
+@media only screen and (min-width: 1200px) {
+  .background-shapes .circle2 {
+    display: block;
+    top: 80%;
+    left: 40%;
+  }
 }
 
 .footer-area {
@@ -1173,6 +1227,11 @@ a {
     flex-direction: row;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .hero-area {
+    padding: 6rem 15rem;
+  }
+}
 .hero-area img {
   width: 800px;
 }
@@ -1190,6 +1249,11 @@ a {
 @media only screen and (min-width: 992px) {
   .hero-area img {
     width: 800px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .hero-area img {
+    width: 1000px;
   }
 }
 .hero-area-header {
@@ -1318,12 +1382,22 @@ a {
     margin-top: 4%;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .about-area {
+    padding: 6rem 13rem;
+  }
+}
 .about-area--img {
   width: 70rem;
 }
 @media only screen and (min-width: 992px) {
   .about-area--img {
     width: 90rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .about-area--img {
+    width: 110rem;
   }
 }
 .about-area--content {
@@ -1390,6 +1464,12 @@ a {
 @media only screen and (min-width: 992px) {
   .roadmap-area {
     padding: 6rem 8rem;
+    margin-top: 4%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .roadmap-area {
+    padding: 6rem 13rem;
     margin-top: 4%;
   }
 }
@@ -1613,6 +1693,12 @@ a {
     margin-top: 0%;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .projects-area {
+    padding: 6rem 13rem;
+    margin-top: 4%;
+  }
+}
 .projects-area--header {
   text-align: center;
 }
@@ -1702,6 +1788,11 @@ a {
     max-width: 260px;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .projects-area--card {
+    max-width: 300px;
+  }
+}
 .projects-area--card--img {
   width: 270px;
 }
@@ -1723,6 +1814,11 @@ a {
 @media only screen and (min-width: 992px) {
   .projects-area--card--img {
     width: 260px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .projects-area--card--img {
+    width: 300px;
   }
 }
 .projects-area--card--body {
@@ -1768,6 +1864,11 @@ a {
     font-size: 1rem;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .projects-area--card--body p {
+    padding: 0rem 0.8rem;
+  }
+}
 .projects-area--card a {
   color: rgba(0, 0, 0, 0.6941176471);
 }
@@ -1782,19 +1883,22 @@ a {
 @media only screen and (max-width: 576px) {
   .contact-area {
     padding: 4rem 2rem;
-    margin-top: 0;
+    margin-top: 0%;
   }
 }
 @media only screen and (min-width: 576px) {
   .contact-area {
     padding: 8rem 1rem;
-    margin-top: 0%;
   }
 }
 @media only screen and (min-width: 992px) {
   .contact-area {
     padding: 6rem 2rem;
-    margin-top: 0%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .contact-area {
+    padding: 6rem 4rem;
   }
 }
 .contact-area .contact-card {
@@ -1816,6 +1920,11 @@ a {
 @media only screen and (min-width: 576px) {
   .contact-area .contact-card {
     align-items: center;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .contact-area .contact-card {
+    padding: 2rem 6rem;
   }
 }
 .contact-area .contact-card--header {
