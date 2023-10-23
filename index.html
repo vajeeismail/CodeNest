@@ -24,23 +24,24 @@
         </div>
         <div>
             <div class="nav-menu-bar">
-                <i class="fas fa-bars"></i>
+                <i class="navIcon fas fa-bars"></i>
+                <i class="navIcon fas fa-times hidden"></i>
             </div>
             <ul  class="header-menu">
                 <li class="header-menu-item">
-                    <a class="active" href=""> Home </a>
+                    <a class="active" href="#home"> Home </a>
                 </li>
                 <li class="header-menu-item">
-                    <a href=""> About </a>
+                    <a href="#about"> About </a>
                 </li>
                 <li class="header-menu-item">
-                    <a href=""> Roadmap </a>
+                    <a href="#roadmap"> Roadmap </a>
                 </li>
                 <li class="header-menu-item">
-                    <a href=""> Projects </a>
+                    <a href="#courses"> Projects </a>
                 </li>
                 <li>
-                    <a href="" class="btn-primary"> Contact Us </a>
+                    <a href="#contact" class="btn-primary"> Contact Us </a>
                 </li>
             </ul>
         </div>
@@ -51,7 +52,7 @@
     <!-- ========== Start Main content ========== -->
     <main>
         <!-- ========== Start Home page ========== -->
-        <section class="hero-area">
+        <section id="home" class="hero-area">
             <div class="background-shapes">
                 <div class="box1"></div>
                 <div class="box2"></div>
@@ -96,7 +97,7 @@
         <!-- ========== End Home Page ========== -->
 
         <!-- ========== Start About Page ========== -->
-        <section class="about-area space-x-2 space-y-2">
+        <section id="about" class="about-area space-x-2 space-y-2">
             <div>
                 <img class="about-area--img img-responsive" src="./assets/img/About-page.png" alt="about-Page">
             </div>
@@ -110,7 +111,7 @@
         <!-- ========== End About Page ========== -->
 
         <!-- ========== Start Roadmap ========== -->
-        <section class="roadmap-area">
+        <section id="roadmap" class="roadmap-area">
             <div class="roadmap-area--header">
                 <h2>Roadmap to Programming Mastery</h2>
                 <p>Unlock your coding potential with our roadmap</p>
@@ -123,7 +124,7 @@
                         <img src="./assets/img/Roadmap-img/programming-logo.png" alt="Programming Logo in CodeNest">
                     </div>
                     <div class="roadmap-area--item--content space-y-1">
-                        <h5>Learn Programming</h5>
+                        <h5>YouTube Learning</h5>
                         <p>Learning programming is our guiding light.</p>
                     </div>
                 </div> 
@@ -132,8 +133,8 @@
                         <img class="roadmap-area--item--img" src="./assets/img/Roadmap-img/website-logo.png" alt="Website Logo in CodeNest">
                     </div>
                     <div class="roadmap-area--item--content space-y-1">
-                        <h5>Learn Programming</h5>
-                        <p>Learning programming is our guiding light.</p>
+                        <h5>Learning Resources</h5>
+                        <p>Official websites dedicated to your programming journey.</p>
                     </div>
                 </div> 
                 <div class="roadmap-area--item">
@@ -141,8 +142,8 @@
                         <img class="roadmap-area--item--img" src="./assets/img/Roadmap-img/ide-log.png" alt="Development Environment Logo in CodeNest">
                     </div>
                     <div class="roadmap-area--item--content space-y-1">
-                        <h5>Learn Programming</h5>
-                        <p>Learning programming is our guiding light.</p>
+                        <h5>Development Tools</h5>
+                        <p>The diverse universe of development environments.</p>
                     </div>
                 </div> 
             </div>
@@ -150,7 +151,7 @@
         <!-- ========== End Roadmap ========== -->
 
         <!-- ========== Start Projects Page ========== -->
-        <section class="projects-area">
+        <section id="courses" class="projects-area">
             <div class="projects-area--header mb-3">
                 <h3>Explore Our Project's Directory</h3>
                 <p class="mt-1">Discover inspiring coding projects that fuel your journey.</p>
@@ -196,7 +197,7 @@
         <!-- ========== End Projects Page ========== -->
 
         <!-- ========== Start Contact Page ========== -->
-        <section class="contact-area">
+        <section id="contact" class="contact-area">
             <div class="contact-card">
                 <form class="space-y-1">
                     <div class="contact-card--header mb-2">
@@ -256,5 +257,12 @@
     </footer>
     <!-- ========== End Footer========== -->
 
+    <!-- ========== JS Scripts ========== -->
+
+    <script src="/assets/js/main.js">
+        
+    </script>
+    
+    <!-- =========JS Scripts ========== -->
 </body>
 </html>
