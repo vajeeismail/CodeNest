@@ -9,3 +9,22 @@ navMenu.addEventListener('click', () => {
         icon.classList.toggle("hidden")
     })
 })
+
+function navFixed(){
+    const header_dom = document.querySelector('.header');
+    const nav_offset_top = header_dom.clientHeight + 50;
+
+    window.addEventListener("scroll", () => {
+        let scroll = window.pageYOffset || document.documentElement.scrollTop;
+
+        if(scroll >= nav_offset_top){
+            header_dom.classList.add('nav-fixed')
+        }
+
+        else {
+            header_dom.classList.remove('nav-fixed')
+        }
+    });
+}
+
+navFixed();
